@@ -58,7 +58,7 @@ const AboutPage = () => {
                         {/* <h1 className="font-bold text-2xl">BIOGRAPHY</h1> */}
                         {/* BIOGRAPHY DESC */}
                         <p className="text-lg">
-                            I'm a skilled frontend developer with a strong
+                            I&apos;m a skilled frontend developer with a strong
                             background in web development, specializing in
                             creating interactive and user-friendly interfaces.
                             Currently working at Sustainability Economics, has
