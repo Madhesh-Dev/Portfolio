@@ -20,9 +20,7 @@ const ContactPage = () => {
                 process.env.NEXT_PUBLIC_SERVICE_ID,
                 process.env.NEXT_PUBLIC_TEMPLATE_ID,
                 form.current,
-                {
-                    publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
-                }
+                process.env.NEXT_PUBLIC_PUBLIC_KEY
             )
             .then(
                 () => {
@@ -34,10 +32,6 @@ const ContactPage = () => {
                 }
             );
     };
-
-    useEffect(() => {
-        emailjs.init(process.env.NEXT_PUBLIC_PUBLIC_KEY);
-    }, []);
 
     return (
         <motion.div
